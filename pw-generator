@@ -1,0 +1,10 @@
+import random
+elemen = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+tanya = input("Tolong masukkan panjang kata sandi")
+password = ""
+
+for i in range(tanya):
+    password += random.choice(elemen)
+
+    
+print("password anda :" (password))
